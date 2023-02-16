@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        h1{ /* box-level*/
+           background-color: lightgray;
+           height: 300px;
+           width: 300px;
+           border-width: 10px; 
+           border-style: solid;
+           border-color: darkslategrey;
+           /*  posso simplicar a propriedade Border para shorthands:
+           exemplo: border: 10px solid darkslategrey
+           */
+
+           padding-top: 10px;
+           padding-right: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+            /*  posso simplicar a propriedade Border para shorthands:
+           exemplo: padding: 10px 10px 10px 10px (se as medidas forem iguais, só coloca uma medida)
+           */
+
+           margin-top: 20px;
+           margin-right: 20px;
+           margin-bottom: 40px;
+           margin-left: 20px ;
+            /*  posso simplicar a propriedade Border para shorthands:
+           exemplo: margin: 20px 20px 40px 20px
+           */
+        }
+
+        a{ /* inlive-leve*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Parágrafos tambem são exemplos de bo-level, mas os <a href="@">links são de exemplos de caixas inline-level</a>. vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>
